@@ -1,0 +1,56 @@
+/* login.css */
+
+/* Container styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a4d7d5; 
+}
+
+/* Form styles */
+.login-form {
+    width: 350px;
+    padding: 30px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #35a7a3; 
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1e5452; 
+}
+
+.text-center {
+    text-align: center;
+}
+
+.forgot-password {
+    color: #246b68;
+}
